@@ -1,5 +1,5 @@
-#compdef tmuxinator mux
-#autoload
+compdef tmuxinator mux
+autoload
 
 local curcontext="$curcontext" state line ret=1
 local -a _configs
